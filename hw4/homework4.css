@@ -12,6 +12,7 @@
     margin-top: 7.625%;
 }
 .text{
+    color: #101010;
     color: white;
     font-family: 'Lato';
     font-size: 36px;
@@ -31,33 +32,40 @@
     margin-top: 8.2%;
 }
 .PlayMarket{
-    height: 26px;
-    width: 26px;
+    height: 32px;
+    width: 32px;
     margin-right: 3.35%;
     cursor: pointer;
 }
 .AppStore{
     
-    height: 26px;
-    width: 26px;
+    height: 32px;
+    width: 32px;
     margin-right: 3.35%;
     cursor: pointer;
 }
 .Microsoft{
-    height: 26px;
-    width: 26px;
+    height: 32px;
+    width: 32px;
     margin-right: 3.35%;
     cursor: pointer; 
 }
 .foto{
     margin-top: 32px;
 }
+
+.foto a{
+    text-decoration: none;
+}
+
 .img{
+    border-style: none;
     width: 500px;
     height: 300px;
     margin-top: 82px;
     margin-left: 58px;
 }
+
 .main{
     display: inline-flex;
     flex-direction: row;
@@ -85,7 +93,7 @@
 .paragraf2{
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     line-height: 140%;
     text-align: justify;
@@ -98,11 +106,251 @@
     margin-top: 7.625%;
 
 }
-.FN{
-    border: solid 1px;
-    color: #000000;
-    border-radius: 3px;
-    height: 30px;
-    width: 120px;
-    text-align: center;
+.Forms{
+    margin-top: 117px;
+    margin-left: 7.125%;
+    width: 45.95%;
+}
+.First_and_Last{
+    display: inline-flex;
+    width: 82.5%;
+}
+
+.FirstName{
+    display: inline-flex;
+    width: 48.22%;
+    height: 60px;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 6px;
+    color: rgba(19, 39, 67, 0.5);
+    border: 1px solid #333333;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.15;
+    padding-left: 31px;
+    overflow:visible;
+}
+.LastName{
+    display: inline-flex;
+    width: 47.22%;
+    font-weight: 400;
+    height: 60px;
+    font-style: normal;
+    border-radius: 6px;
+    color: rgba(19, 39, 67, 0.5);
+    border: 1px solid #333333;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.15;
+    padding-left: 31px;
+    margin-left: 25px;
+    overflow:visible;
+
+}
+.PhoneNumber{
+    box-sizing: border-box;
+    height: 60px;
+    width: 498px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    border: 1px solid #333333;
+    margin-top: 24px;
+    padding-left: 31px;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.15;
+    overflow:visible;
+    
+    
+}
+.Select{
+    box-sizing: border-box;
+    height: 60px;
+    width: 497px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+    border: 1px solid #333333;
+    margin-top: 24px;
+    padding-left: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 15px;
+    overflow: visible; 
+    padding-left: 30px;
+    font-weight: 400;
+    appearance: none;
+    background-image: url(/hw4/select.png);
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position: right;
+    
+
+}
+
+
+
+.SUBMIT{
+    position: absolute;
+    width: 11.93%;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.col{
+    text-decoration: none;
+    color: #fff;
+}
+
+.FooteR{
+    position: absolute;
+    width: 100%;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+}
+.vsi{
+    display: flex;
+}
+.blok1{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 10.375%;
+    margin-top: 70px; 
+}
+.blok1 p{
+    font-style: normal;
+    font-size: 12.5px;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+
+.adress{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-bottom: 32px;
+}
+.blok2{   
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 1.875%;
+    margin-top: 70px; 
+    
+
+
+}
+.Services{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-bottom: 33px;
+
+   
+}
+.ul0{
+    list-style: none;
+    font-family: 'Lato';
+    line-height: 18px;
+    font-weight: 500;
+    color: #101010;
+    padding-left: 1px;
+}
+.li1{
+   
+    text-decoration: none;
+    color: #101010;
+    
+}
+
+.blok3{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 1.875%;
+    margin-top: 70px; 
+}
+.Touch{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-bottom: 33px;
+}
+.infoP{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+    
+}
+.IMGfooter{
+    margin-top: 8.3125%;
+}
+.img-facebook{
+    width: 6.42px;
+    height: 11.67px;
+    margin-right: 6.35%;
+    cursor: pointer;
+}
+.img-linkedin{
+    height: 11.08px;
+    margin-right: 6.35%;
+    cursor: pointer;
+}
+.img-twitter{
+    width: 12.83px;
+    height: 10.47px;
+    margin-right: 6.35%;
+    cursor: pointer;
+}
+.blok4{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 1.875%;
+    margin-top: 70px;
+}
+.WE{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-bottom: 33px;
+}
+.end{
+    width: 216px;
+    height: 31px;
+}
+.THeEnd{
+    font-size: 0.8rem;
+    margin-top: 10.375%;
+    margin-left: 10.375%;
 }
