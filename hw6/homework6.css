@@ -99,7 +99,7 @@ cursor: pointer;
 }
 
 .block-opus{ /* оту всю істоію ставим в рамки згідно макету */
-    display: flex; /* флек бо будуть мультікі */ 
+    display: flex;  
     width: 1248px;
     height: 694px;
     margin-left: 240px;
@@ -110,7 +110,7 @@ cursor: pointer;
     position: absolute; 
 }
 
-.opus-picture img{ /* згідно макету */
+.opus-picture img{ 
     width: 885px;
     height: 486px;
     margin-left: 363px;
