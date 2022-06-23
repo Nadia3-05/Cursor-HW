@@ -174,10 +174,10 @@ main{
     flex-direction: row;
 }
 .item1 {
-    
+    position: relative;
+    top: -10px;
     width: 750px;
     height: 810px;
-    left: 650px;
     grid-column: 3 / 5;
     grid-row: 1 / 4;
     background: #2B7AF1;
@@ -240,7 +240,7 @@ main{
 .item4 {
     margin-right:  20px;
     margin-left: 80px;
-    width: 305px;
+    width: 285px;
     height: 231px;
     margin-top: 145px;
     margin-bottom: 45px;
@@ -268,12 +268,14 @@ main{
     padding-top: 26px;
 }
 .item5 {
-    width: 305px;
+    position: relative;
+    width: 285px;
     height: 231px;
     margin-top: 145px;
     margin-bottom: 45px;
+    
    
-    margin-right: -20px;
+    margin-right: 20px;
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background: #FFFFFF;
@@ -297,10 +299,11 @@ main{
     padding-top: 26px;
 }
 .item6{
+    position: relative;
     top: 540px;
     left: 692px;
     position: absolute;
-    width: 305px;
+    width: 285px;
     height: 231px;
     margin-top: 145px;
     margin-bottom: 45px;
@@ -309,7 +312,7 @@ main{
     background: #FFFFFF;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 20px rgba(17, 17, 17, 0.3));
-    margin-left: 40px;
+    margin-left: 0px;
     
     
 }
@@ -333,7 +336,7 @@ main{
     top: 540px;
     left: 1020px;
     position: absolute;
-    width: 305px;
+    width: 285px;
     height: 231px;
     margin-top: 145px;
     margin-bottom: 45px;
@@ -342,7 +345,7 @@ main{
     background: #FFFFFF;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 20px rgba(17, 17, 17, 0.3));
-    margin-left: 40px;
+    margin-left: -25px;
     
     
 }
