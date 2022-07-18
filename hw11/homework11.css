@@ -101,14 +101,6 @@ body{
     margin-bottom: 21px;
 
 }
-
-
-
-
-
-
-
-
 .content{ 
     max-width: 1000px;
     margin: 0 auto;
@@ -152,23 +144,6 @@ body{
         display: block;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .content{
    
     margin: 0 auto;
@@ -195,8 +170,6 @@ body{
     display: flex;
     text-transform: uppercase;
     margin-left: 370px;
-    
-  
 }
 .hr{
   margin-left: 70px;
@@ -214,17 +187,11 @@ body{
     display: flex;
     text-transform: uppercase;
     margin-left: 45px;
-    
-    
-  
 }
 
 .tabs_body img{
     height: 297px ;
-    width: 297px;
-    
-
-  
+    width: 297px; 
 }
 #tab1{
     margin-left: 70px;
@@ -296,49 +263,3 @@ body{
     max-width: 100%;
 }
 
-/* @media (max-width:991px){
-    .rad{
-        width: 207px;
-        height: 207px;
-        background-color: #000000;
-        margin-right: 25px;
-    }
-    
-}
-@media (max-width:767px){
-    .rad{
-        width: 150px;
-        height: 150px;
-        background-color: #000000;
-        margin-right: 20px;
-    }
-    
-}
-@media (max-width:576px){
-    .rad{
-        width: 140px;
-        height: 140px;
-        background-color: #000000;
-        margin-right: 16px;
-       
-    }
-    
-}
-@media (max-width:510px){
-    .rad{
-        width: 120px;
-        height: 120px;
-       
-      
-    }
-    
-} */
-/* .all{
-    display: flex;
-    flex: 0 1 33.333%;
-    height: auto;
-}
-.tabs_body
-{
-   margin: 15px auto;
-} */
